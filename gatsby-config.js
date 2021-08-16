@@ -10,7 +10,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL:'https://proster-project.herokuapp.com/',
+        apiURL:'https://proster-project.herokuapp.com',
         queryLimit: 1000, // Defaults to 100
         collectionTypes:[
           'jobs',
