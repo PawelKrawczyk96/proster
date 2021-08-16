@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.background-top-kontakt{
+    width:100%;
+    height:300px;
+    background-image: url('./assets/kontakt_header.png');
+    background-position: right;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact .info-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info-items .info-item{
+    display: flex;
+    align-items: start;
+    justify-self: start;
+}
+
+.info-items .info-item img{
+    width:78px;
+}
