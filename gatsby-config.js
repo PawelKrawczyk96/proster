@@ -10,7 +10,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: process.env.DEPLOY_URL ? 'https://proster-project.herokuapp.com/' : `http://localhost:1337`,
+        apiURL:'https://proster-project.herokuapp.com/',
         queryLimit: 1000, // Defaults to 100
         collectionTypes:[
           'jobs',
