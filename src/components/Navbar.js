@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="container">
             <nav className="main-navbar">
                 <div className="nav-logo">
-                    <img src={logo} alt="logo proster" className="logo"/>
+                    <a href="/"><img src={logo} alt="logo proster" className="logo"/></a>
                 </div>
                 <img src={navIcon} alt="navbar hamburger" className="nav-icon img-fluid" onClick={collapsing} />
                 <ul className={`nav-list ${collapse? '' : 'test'}` }>

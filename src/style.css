@@ -67,14 +67,16 @@ span{
     text-decoration: none;
     color:#7f7f7f;
     position: relative;
+    font-weight: 800;
 }
+
 
 .item-link:hover:after{
     content: '';
     position: absolute;
     left:0;
     bottom: -1px;
-    height: 1px;
+    height: 2px;
     width:100%;
     background-color: #172849;
 }
@@ -163,6 +165,11 @@ span{
     padding:0 0 20px 0;
 }
 
+.experience-img{
+    display: flex;
+    justify-content: end;
+}
+
 .inst-process{
     padding: 48px 0;
 }
@@ -186,7 +193,7 @@ span{
     display: flex;
     justify-content: center;
     padding: 0 0 16px 0;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     position: relative;
 }
 
@@ -273,7 +280,12 @@ span{
 .footer-logo .logo{
     width:172px;
 }
-
+@media (min-width: 1620px){
+    .entry-info{
+        margin: 0 auto;
+        width: 70%;
+    }
+}
 
 @media (max-width: 1466px){
     .container{
@@ -295,6 +307,18 @@ span{
     }
     .process-road{
         grid-template-columns: repeat(3,1fr);
+    }
+    .road-item{
+        padding: 0 0 16px 0;
+    }
+    .road-item p{
+        padding: 0;
+    }
+    .road-item-img{
+        border-bottom: 0px;
+    }
+    .road-item-img::after{
+        width: 0;
     }
 }
 

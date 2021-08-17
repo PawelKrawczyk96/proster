@@ -31,13 +31,14 @@ span{
 }
 
 .jobs-header h2{
-    padding: 0 0 48px 0;
+    padding:48px 0;
     font-size: 3rem;
     font-weight: 700;
 }
 
 .jobs-items{
     list-style-type: none;
+    padding: 0 0 48px 0;
 }
 
 .jobs-item{

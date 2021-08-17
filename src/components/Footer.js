@@ -8,7 +8,7 @@ const Footer = () => {
             <footer className="footer">
                 <div className="footer-desc">
                     <div className="footer-logo">
-                        <img src={logo} alt="proster logo" className="logo"></img>
+                        <a href="/"><img src={logo} alt="proster logo" className="logo"></img></a>
                     </div>
                     <div className="footer-info">
                         <p>
