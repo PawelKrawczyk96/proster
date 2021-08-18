@@ -9,7 +9,7 @@ const Kariera = () => {
         edges
     }} = useStaticQuery(query)
     const jobs = edges.map(item =>{
-        return <li className="jobs-item"><a key={item.node.id} href={`/kariera/${item.node.tytul.replace(' ','-')}`}>{item.node.tytul}</a> <img className="img-fluid" src={arrowIcon} /></li>
+        return <li className="jobs-item"><a key={item.node.id} href={`/kariera/${item.node.tytul.replace(' ','-')}`}>{item.node.tytul}</a> <img className="img-fluid" alt="arrow icon" src={arrowIcon} /></li>
     })
     return (
         <Layout>

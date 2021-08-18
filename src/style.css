@@ -218,26 +218,6 @@ span{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container-footer{
     width: 100%;
     background-color: #f4f4f4;
@@ -365,6 +345,9 @@ span{
 
     .header-info h1{
         font-size: 2rem;
+    }
+    .header-info p{
+        width: 100%;
     }
 
     .entry-info{
