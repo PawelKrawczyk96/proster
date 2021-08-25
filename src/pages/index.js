@@ -50,55 +50,6 @@ const index = () => {
             </div>
           </div>
         </div>
-        <div className="container">
-          <div className="inst-process">
-            <h2>Przebieg czynności od podpisania umowy do uruchomienia instalacji</h2>
-            <div className="process-road">
-              <div className="road-item">
-                <div className="road-item-img">
-                  <img src={signIcon} alt="sign icon"/>
-                </div>
-                <p>Podpisanie umowy</p>
-              </div>
-              <div className="road-item">
-                <div className="road-item-img">
-                  <img src={projectIcon} alt="project icon" />
-                </div>
-                <p>Projekt techniczny</p>
-              </div>
-              <div className="road-item">
-                <div className="road-item-img">
-                  <img src={invoiceIcon} alt="invoice icon" />
-                </div>
-                <p>Faktura pro-forma</p>
-              </div>
-              <div className="road-item">
-                <div className="road-item-img">
-                  <img src={moneyIcon} alt="money icon" />
-                </div>
-                <p>Finansowanie</p>
-              </div>
-              <div className="road-item">
-                <div className="road-item-img">
-                  <img src={installationIcon} alt="installation icon"/>
-                </div>
-                <p>Montaż</p>
-              </div>
-              <div className="road-item">
-                <div className="road-item-img">
-                  <img src={meterIcon} alt="meter icon" />
-                </div>
-                <p>Wymiana licznika</p>
-              </div>
-              <div className="road-item">
-                <div className="road-item-img">
-                  <img src={startIcon} alt="start icon" />
-                </div>
-                <p>Uruchomienie</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </Layout>
     </div>
   )

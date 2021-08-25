@@ -13,7 +13,10 @@ const oferta = () => {
                 <div className="main-article">
                     <div className="main-article-header">
                         <h2><span>Fotowoltaika</span> - kompletne rozwiązania dla firm </h2>
-                        <p>Indywidualne podejście do projektów, doradztwo techniczne oraz kompleksowa obsługa w zakresie realizacjiinstalacji fotowoltaicznych w sektorze Mikro, MŚP i Dużych Przedsiębiorstwach.</p>
+                        <p>Produkcja prądu z instalacją fotowoltaiczną w Twojej firmie to sposób na uniezależnienie się od podwyżek cen prądu i zyskanie oszczędności. Oświetlenie, klimatyzatory, maszyny produkcyjne, pompy ciepła, piece elektryczne i inne urządzenia działające na prąd mogą zostać zasilone z energii cieplnej. </p>
+                        <p>Nasza oferta kierowana jest dla MŚiP a także do Firm, które zainteresowane są Mikroinstalacjami (czyli instalacjami do 50 kWp w rozliczeniu Prosumenta) oraz jeśli będzie potrzebny możemy przy okazji wykonać projekt nowych, jak również modernizacje istniejących instalacji elektrycznych i elektroenergetycznych. </p>                    
+                        <p>Nasze wieloletnie doświadczenie w wielu branżach pozwala nam przygotować kompleksowe rozwiązania.</p>
+                        <p>Oferta Proster Energy, która została stworzona na potrzeby rynku, to przede wszystkim falowniki i moduły fotowoltaiczne o najwyższej jakości o czym świadczy chociażby wysoka pozycja na liście Bloomberg Tier 1 .</p>
                     </div>
                     <div className="main-article-info">
                         <div className="info-image">
@@ -52,8 +55,9 @@ const oferta = () => {
             <div className="container container-about">
                 <div className="about-article">
                     <div className="about-text">
-                        <h3>Prosument wytwarza energię elektryczną z odnawialnych źródeł energii</h3>
-                        <p>na własne potrzeby za pomocą mikroinstalacji (do 50 kWp), którą może także magazynować i przekazywać nadwyżkę do sieci energetycznej, a następnie takie nadwyżki energii rozliczać w systemie opustów.</p>
+                        <p>Jeśli Twoje zapotrzebowanie na prąd mieści się w przedziale do 50 kWp, to posiadając Mikroinstalację możesz korzystać z gromadzenia energii w sieci i z rocznego bilansowania energii z zakładem energetycznym jako Prosument. </p>
+                        <p>Pozwoli Ci to na gromadzenie nadmiaru wyprodukowanej energii przez Twoją instalacje w sieci, a następnie odebranie tej nadwyżki w przeciągu roku, tak w nocy kiedy instalacja fotowoltaiczna nie pracuje jak i wszystkie dni kiedy instalacja produkuje mniej energii, niż wynosi w danym momencie Twoje zapotrzebowanie.</p>
+                        <p>Gdy jednak Twoje zapotrzebowanie na prąd jest znacznie większe, także możesz stać się wytwórcą energii, przygotujemy wtedy propozycję już nie Mikroinstalacji lecz Małej Instalacji w przedziale do 500 kWp.</p>
                     </div>
                     <div className="about-img">
                         <img src={aboutImage} alt="proster building" className="img-fluid"></img>
