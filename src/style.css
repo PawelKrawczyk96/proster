@@ -303,6 +303,9 @@ span{
 }
 
 @media (max-width: 966px){
+    .entry-info .info-des{
+        padding: 0;
+    }
     .main-navbar{
         position: relative;
         padding: 24px 0;

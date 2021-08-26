@@ -64,7 +64,6 @@ body{
 .contact-us-info{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
 
 }
 .contact-us-info p{
