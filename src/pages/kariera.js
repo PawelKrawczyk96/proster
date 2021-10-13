@@ -9,7 +9,12 @@ const Kariera = () => {
         edges
     }} = useStaticQuery(query)
     const jobs = edges.map(item =>{
-        return <li className="jobs-item"><a key={item.node.id} href={`/kariera/${item.node.tytul.replace(' ','-')}`}>{item.node.tytul}</a> <img className="img-fluid" alt="arrow icon" src={arrowIcon} /></li>
+        return <li className="jobs-item">
+          <a key={item.node.id}
+          href='https://www.pracuj.pl/praca/doradca-klienta-biznesowego-ds-oze-podkarpackie,oferta,8346773' 
+          target='_blank'>{item.node.tytul}</a> 
+            <img className="img-fluid" alt="arrow icon" src={arrowIcon} />
+          </li>
     })
     return (
         <Layout>

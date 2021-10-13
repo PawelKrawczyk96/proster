@@ -41,7 +41,12 @@ const index = () => {
             <div className="experience">
               <div className="experience-info">
                 <h3>35 lat doświadczenia w ponad 5000 zrealizowanych projektach na świecie.</h3>
-                <p>Od 1985 roku nieprzerwanie działamy w przemyśle specjalizując się w branżach elektrotechniki, mechaniki, utrzymania ruchu oraz OZE. Realizowaliśmy projekty dla wielu firm na całym świecie.      </p>
+                <p>Proster to firma rodzinna specjalizująca się we wdrażaniu rozwiązań
+                    automatyzujących procesy technologiczne w branżach takich jak
+                    elektrotechnika, automatyka i robotyka, mechanika, utrzymanie ruchu, OZE.</p>
+                <p>Od 1985 roku współpracujemy z przemysłem i jest to nasz konik. Jeśli
+                    potrzebujesz sprawdzonego partnera w biznesie, który wyprodukuje dla
+                    Ciebie standardowe lub niestandardowe rozwiązania - dobrze trafiłeś!</p>
                 <button className="btn"><a href="/kontakt/">Skontaktuj się z nami</a></button>
               </div>
               <div className="experience-img">

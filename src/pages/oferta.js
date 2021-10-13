@@ -3,6 +3,16 @@ import Layout from './../components/layout'
 import './../oferta.css'
 import infoImage from './../assets/info-img.png'
 import aboutImage from './../assets/about-img.png'
+import adr from './../assets/ADR.svg'
+import automatyzacja from './../assets/automatyzacja.svg'
+import elektromechanika from './../assets/elektromechanika.svg'
+import fotowoltaika from './../assets/fotowoltaika.svg'
+import modernizacje from './../assets/modernizacje.svg'
+import oswietlenie from './../assets/oswietlenie.svg'
+import paletyzacja from './../assets/paletyzacja.svg'
+import pomiary from './../assets/pomiary.svg'
+import robotyka from './../assets/robotyka.svg'
+import utrzymanie_ruchu from './../assets/utrzymanie_ruchu.svg'
 
 const oferta = () => {
     return (
@@ -12,33 +22,38 @@ const oferta = () => {
             <div className="container">
                 <div className="main-article">
                     <div className="main-article-header">
-                        <h2><span>Fotowoltaika</span> - kompletne rozwiązania dla firm </h2>
-                        <p>Produkcja prądu z instalacją fotowoltaiczną w Twojej firmie to sposób na uniezależnienie się od podwyżek cen prądu i zyskanie oszczędności. Oświetlenie, klimatyzatory, maszyny produkcyjne, pompy ciepła, piece elektryczne i inne urządzenia działające na prąd mogą zostać zasilone z energii cieplnej. </p>
-                        <p>Nasza oferta kierowana jest dla MŚiP a także do Firm, które zainteresowane są Mikroinstalacjami (czyli instalacjami do 50 kWp w rozliczeniu Prosumenta) oraz jeśli będzie potrzebny możemy przy okazji wykonać projekt nowych, jak również modernizacje istniejących instalacji elektrycznych i elektroenergetycznych. </p>                    
-                        <p>Nasze wieloletnie doświadczenie w wielu branżach pozwala nam przygotować kompleksowe rozwiązania.</p>
-                        <p>Oferta Proster Energy, która została stworzona na potrzeby rynku, to przede wszystkim falowniki i moduły fotowoltaiczne o najwyższej jakości o czym świadczy chociażby wysoka pozycja na liście Bloomberg Tier 1 .</p>
+                        <h2><span>Fotowoltaika</span> - Dopasujemy rozwiązanie do potrzeb Twojej firmy </h2>
+                        <p>Przez ponad 35 lat wdrożyliśmy już setki rozwiązań usprawniających
+                            działania operacyjne w firmach naszych klientów. W naszym portfolio
+                            znajdują się usługi i produkty odpowiadające na wszystkie główne
+                            potrzeby zakładów produkcyjnych i cały czas dbamy o to, aby
+                            poszerzać swoje kompetencje odpowiadając na najnowsze potrzeby
+                            rynkowe. Z takiej potrzeby zrodził się dział fotowoltaiki dla przemysłu.</p>
+                        <p>Nasza oferta kierowana jest dla MŚiP a także do Firm, które
+                            zainteresowane są Mikroinstalacjami (czyli instalacjami do 50 kWp w
+                            rozliczeniu Prosumenta) oraz jeśli będzie potrzeba możemy przy okazji
+                            wykonać projekt nowych, jak również modernizacje istniejących
+                            instalacji elektrycznych i elektroenergetycznych.</p>                    
+                        <p>Produkcja prądu z instalacją fotowoltaiczną w Twojej firmie to
+                            sposób na uniezależnienie się od podwyżek cen prądu i zyskanie
+                            oszczędności. Oświetlenie, klimatyzatory, maszyny produkcyjne, pompy
+                            ciepła, piece elektryczne i inne urządzenia działające na prąd
+                                mogą zostać zasilone z energii cieplnej.</p>
                     </div>
                     <div className="main-article-info">
                         <div className="info-image">
                             <img src={infoImage} alt="working on roof"></img>
                         </div>
                         <div className="info-text">
-                            <h3>Szukasz oszczędności? Zacznij wytwarzać własny prąd z instalacji fotowoltaicznej.</h3>
-                            <p>Własna produkcja prądu pozwoli Ci uniezależnić się od podwyżek cen prądu i cieszyć z darmowej energii. Wyprodukowaną energię elektryczna 
-                                w Twojej firmie w łatwy sposób możesz zamienić na energie cieplną 
-                                zasilając: grzałki elektryczne, pompy ciepła, klimatyzatory, piece 
-                                elektryczne, maszyny produkcyjne  i inne urządzenia działające na prąd które pomogą obniżyć koszty Twojej firmy.
-                            </p>
-                            <p>Od teraz przedsiębiorcy w Polsce mogą korzystać z gromadzenia energii 
-                                w sieci i z rocznego bilansowania energii z zakładem energetycznym jako 
-                                prosument!
-                            </p>
-                            <p>Pozwoli Ci to na gromadzenie nadmiaru wyprodukowanej energii przez Twoją instalacje w sieci i odebranie (w przeciągu roku)  w nocy oraz dni, kiedy instalacja produkuje mniej niż wynosi Twoje zapotrzebowanie 
-                                w danym momencie.
-                            </p>
-                            <p>Dodatkowo Twoja elektrownia słoneczna uniezależni Cie od spadku napięcia w sieci wywołany zbyt dużym obciążeniem przez innych użytkowników, 
-                                generując Twój własny prąd!
-                            </p>
+                            <h3>Korzyści z instalacji fotowoltaicznej:</h3>
+                            <p>- szybki zwrot inwestycji</p>
+                            <p>- korzystne finansowanie</p>
+                            <p>- oszczędność i generowanie zysku</p>
+                            <p>- inwestycja w ekologię</p>
+                            <p>- niezawodność</p>
+                            <p>- niewyczerpane źródło energii</p>
+                            <p>- cicha i czysta energia</p>
+                            <p>- monitorowanie produkcji i zużycia energii</p>
                         </div>
                     </div>
                 </div>
@@ -55,9 +70,20 @@ const oferta = () => {
             <div className="container container-about">
                 <div className="about-article">
                     <div className="about-text">
-                        <p>Jeśli Twoje zapotrzebowanie na prąd mieści się w przedziale do 50 kWp, to posiadając Mikroinstalację możesz korzystać z gromadzenia energii w sieci i z rocznego bilansowania energii z zakładem energetycznym jako Prosument. </p>
-                        <p>Pozwoli Ci to na gromadzenie nadmiaru wyprodukowanej energii przez Twoją instalacje w sieci, a następnie odebranie tej nadwyżki w przeciągu roku, tak w nocy kiedy instalacja fotowoltaiczna nie pracuje jak i wszystkie dni kiedy instalacja produkuje mniej energii, niż wynosi w danym momencie Twoje zapotrzebowanie.</p>
-                        <p>Gdy jednak Twoje zapotrzebowanie na prąd jest znacznie większe, także możesz stać się wytwórcą energii, przygotujemy wtedy propozycję już nie Mikroinstalacji lecz Małej Instalacji w przedziale do 500 kWp.</p>
+                        <div className='about-first'>
+                            <div className='about-item'><img src={elektromechanika} className='about-icon' /> <p>Elektromechanika</p> </div>
+                            <div className='about-item'><img src={robotyka} className='about-icon'/> <p>Automatyka i robotyka</p> </div>
+                            <div className='about-item'><img src={paletyzacja} className='about-icon'/> <p>Paletyzacja i kompleksowe systemy transportu technologicznego</p> </div>
+                            <div className='about-item'><img src={modernizacje} className='about-icon'/> <p>Relokacje maszyn i linii technologicznych</p> </div>
+                            <div className='about-item'><img src={automatyzacja} className='about-icon'/> <p>Automatyzacja produkcji</p> </div>
+                        </div>
+                        <div className='about-second'>
+                            <div className='about-item'><img src={utrzymanie_ruchu} className='about-icon'/> <p>Utrzymanie ruchu</p> </div>
+                            <div className='about-item'><img src={pomiary} className='about-icon'/> <p>Pomiary</p> </div>
+                            <div className='about-item'><img src={adr} className='about-icon'/> <p>ADR (Analiza, Doradztwo, Realizacja)</p> </div>
+                            <div className='about-item'><img src={oswietlenie} className='about-icon'/> <p>Profesjonalne oświetlenie LED</p> </div>
+                            <div className='about-item'><img src={fotowoltaika} className='about-icon'/> <p>Fotowoltaika</p> </div>
+                        </div>
                     </div>
                     <div className="about-img">
                         <img src={aboutImage} alt="proster building" className="img-fluid"></img>
